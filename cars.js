@@ -23,7 +23,7 @@ v1.Information();
 // Add a new class called Cars that inherits from the Vehicle class.
 //The constructor should invoke the parents class constructor 
 //and pass it three argument s for make model and year.
-
+//to do it I will extend the class Vehicle and use SUPER to call its constructor
 class Cars extends Vehicle {
     constructor(make, model, year, doors) {
         super(make, model, year);
